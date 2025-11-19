@@ -1,0 +1,23 @@
+{
+  "name": "ssl-checker",
+  "version": "1.0.0",
+  "description": "Checks SSL certificates of a list of sites for expiration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chalk": "^5.2.0",
+    "ssl-date-checker": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "eslint-config-kswedberg": "^7.2.2"
+  }
+}
