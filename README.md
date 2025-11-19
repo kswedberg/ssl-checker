@@ -12,10 +12,8 @@ pnpm install
 
 ## Usage
 
+Copy the `sites.example.js` file to `sites.js` and add your sites to the exported list. Then run the script with:
+
 ```bash
 node index.js
 ```
-
-## Sites
-
-The sites to check are in the `sites.js` file.
